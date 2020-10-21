@@ -54,6 +54,19 @@ body {
 	padding: 10px;
 }
 
+.modal-header {
+	background: $background-dark;
+
+	h4,
+	button {
+		color: floralwhite;
+	}
+}
+
+.modal-body {
+	background: $background-pale;
+}
+
 .carousel {
 	background: $background-dark;
 
@@ -69,7 +82,7 @@ body {
 	}
 }
 
-#carousel-button {
+#carouselButton {
 	right: 0px;
 	position: absolute;
 	bottom: 0px;
